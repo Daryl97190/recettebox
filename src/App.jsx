@@ -66,6 +66,7 @@ this.setState({
         <Header pseudo={this.state.pseudo} />
         <div className="cards">{cards}</div>
         <Admin
+        pseudo = {this.state.pseudo}
         recettes={this.state.recettes}
           chargerExemple={this.chargerExemple}
           ajouterRecette={this.ajouterRecette}
